@@ -36,13 +36,13 @@ CREATE TABLE IF NOT EXISTS `order` (
 
 --
 -- Dump dei dati per la tabella `order`
---
+-- NOTA riga 1 e 4 sono esclusi dal filtro 30 giorni
 
 INSERT INTO `order` (`id`, `user_id`, `data_ordine`, `stato`) VALUES
 (1, 1, '2025-08-05 19:11:28', 'completato'),
 (2, 2, '2025-10-21 19:11:28', 'in lavorazione'),
 (3, 1, '2025-10-21 19:11:28', 'spedito'),
-(4, 3, '2025-10-21 19:11:28', 'completato'),
+(4, 3, '2025-09-05 19:11:28', 'completato'),
 (5, 4, '2025-10-21 19:11:28', 'in lavorazione');
 
 --

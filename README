@@ -1,1 +1,27 @@
+Progetto API PHP Vanilla + Vue 3
+Questo progetto implementa un servizio API REST in PHP Vanilla utilizzando la libreria MysqliDb per l'interazione con MySQL
+e un'interfaccia frontend reattiva sviluppata in Vue 3.
+
+1. Requisiti di Sistema
+PHP (versione 8.1 o successiva)
+MySQL/MariaDB
+Un server web (XAMPP, Apache o Nginx)
+Node.js e npm (per il frontend)
+
+2. Configurazione del Backend (PHP/MySQL)
+    A. cambia le credenziali nel file config/database.php
+    B. usa i file nella cartella query per creare le tabelle e i dati fake
+    C. lancia composer dump-autoload per far funzionare i namespace
+
+3. Configurazione del Frontend (Vue)
+    A. spostati nella cartella frontend
+    B. lancia npm install
+    C. lancia npm run build
+
+UTILIZZO
+    Gli endpoint funzionanti del backend sono 3:
+        api/user -> ritorna un singolo utente
+        api/users -> ritorna tutti gli utenti con la paginazione
+        api/order -> chiamato senza parametri ritorna tutti gli ordini, passandogli ?email=miamail@mail.com ritorna gli ordini per dato utente
+
 composer dump-autoload
