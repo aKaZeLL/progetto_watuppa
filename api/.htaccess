@@ -1,0 +1,9 @@
+# Attiva il modulo di riscrittura
+RewriteEngine On
+
+# Se il file o la directory richiesta ESISTONO, non fare nulla
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Altrimenti riscrivi la richiesta verso index.php
+RewriteRule ^ index.php [QSA,L]

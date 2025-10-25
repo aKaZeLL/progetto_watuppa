@@ -1,0 +1,13 @@
+{
+  "name": "watuppa/project",
+  "description": "API order",
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    },
+    "classmap": [
+      "Helper/"
+    ]
+  },
+  "require": {}
+}
