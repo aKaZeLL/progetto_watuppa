@@ -24,4 +24,4 @@ UTILIZZO
         api/users -> ritorna tutti gli utenti con la paginazione
         api/order -> chiamato senza parametri ritorna tutti gli ordini, passandogli ?email=miamail@mail.com ritorna gli ordini per dato utente
 
-composer dump-autoload
+    Per il frontend localhost:5173
